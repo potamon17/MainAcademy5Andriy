@@ -4,6 +4,10 @@
     height: 50px;
     background: #202024;
 }
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
 img{
     width: 300px;
 }
