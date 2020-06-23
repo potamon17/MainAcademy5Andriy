@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+}
+header{
+    min-width: 80%;
+}
+.s_flex-container {
+    display: flex;
+
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.main_flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.header{
+
+    align-items: center;
+    height: 175px;
+    background: black;
+}
+.text{
+    color: white;
+    margin: auto;
+}
+.textsize_big{
+    font-size: 55px;
+}
+.top_header{
+    height: 120px;
+}
+.textsize_smole{
+
+    margin-left: 15px;
+    font-size: 25px;
+}
+.top_left_header{
+    float: right;
+}
+.space_between{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top_left_header_button{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    background: white;
+}
+.button_left{
+    justify-content: flex-end
+}
+.top_left_header_text{
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.header_buttom{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    border: 0;
+    background: none;
+    color: white;
+
+    border-right: 1px solid white;
+    height: 100%;
+    border-left: 1px solid white;
+}
+.bottom_header{
+    height: 55px;
+}
+.nav{
+    height: 100%;
+}
+.slider{
+    height: 400px;
+}
+.slider_img{
+    width: 100%;
+    height: 400px;
+}
+.text_ifo{
+    margin: 25px;
+    text-align: center;
+}
+.piple{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ava{
+    background-size: 200px;
+    background-image: url('../seurs/1.jpg');
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-position-y: bottom;
+}
+.user{
+    margin: auto;
+    width: 300px;
+}
+.text_m{
+    font-size: 35px;
+}
+.margin_top{
+    margin-top: 20px;
+}
+.shose{
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    /*text-align: center;*/
+}
+.shoose_img{
+
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.margin_left{
+    margin-left: 5px;
+}
+.shose_size{
+    max-width: 350px;
+    margin-right: 15px;
+    min-width: 30%;
+}
+.img_size{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    height: 350px;
+    background: black;
+}
+.bottom_footer{
+    height: 50px;
+    border-top: 1px solid white;
+}
+footer{
+    color: white;
+    height: 100%;
+}
+.topfooter{
+    height: 300px;
+}
+.bottom_footer1{
+
+}
+.info{
+margin-right: 5px;
+}
+.footer_button{
+    color: white;
+    border: 0;
+    background: none;
+    border-left: 1px solid white;
+    width: 80%;
+}
+.footer_container{
+    min-width: 20%;
+    max-width: 300px;
+
+}
+.litl_img{
+    margin-right: 10px;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+}
+.width_img{
+    margin-right: 10px;
+    border: 1px solid white;
+    width: 65px;
+    height: 45px;
+}
+.big_text{
+    font-size: 20px;
+}
+.larg_img{
+    margin-right: 10px;
+    border: 1px solid white;
+    width: 65px;
+    height: 65px;
+}
