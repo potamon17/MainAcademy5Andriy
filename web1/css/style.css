@@ -11,6 +11,49 @@ header{
 .flex_wrap{
     flex-wrap: wrap;
 }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.sidbar{
+    position: relative;
+    margin: auto;
+}
+.main_sid{
+
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    margin-left: 10%;
+}
+.side_text{
+
+    margin-bottom: 15px;
+    font-size: 20px;
+    background: silver;
+}
+.side_text1{
+    width: 100px;
+}
+.side_text2{
+    width: 200px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 .main_flex-container {
     display: flex;
     flex-direction: column;
