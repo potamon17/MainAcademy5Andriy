@@ -4,6 +4,56 @@ body{
 header{
     min-width: 80%;
 }
+ .icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+
+    .nav button:not(:first-child) {display: none;}
+    .div_icon a.icon {
+        color: white;
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;
+    }
+    .s_flex-container{
+        flex-wrap: wrap;
+    }
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive button {
+        background: black;
+        color: white;
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 600px){
+    .search{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .textsize_big{
+        font-size: 25px;
+    }
+}
+.search{
+    width: 200px;
+}
+.topnav button.active {
+    background-color: #4CAF50;
+    color: white;
+}
 .s_flex-container {
     display: flex;
 
@@ -181,11 +231,12 @@ header{
     height: 100%;
 }
 .footer{
-    height: 350px;
+    /*height: 350px;*/
     background: black;
 }
 .bottom_footer{
-    height: 50px;
+    padding: 15px;
+    /*height: 50px;*/
     border-top: 1px solid white;
 }
 footer{
@@ -193,7 +244,7 @@ footer{
     height: 100%;
 }
 .topfooter{
-    height: 300px;
+    /*height: 300px;*/
 }
 .bottom_footer1{
 

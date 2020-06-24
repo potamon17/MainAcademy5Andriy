@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>web1</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="main_flex-container">
@@ -35,8 +36,8 @@
                 </div>
             </div>
             <div class="s_flex-container flex_wrap bottom_header space_between">
-                <div class="s_flex-container flex_wrap nav">
-                    <button class="header_buttom ">
+                <div class="s_flex-container flex_wrap nav" id="myTopnav">
+                    <button class="header_buttom active">
                         Index
                     </button>
                     <button class="header_buttom ">
@@ -59,7 +60,14 @@
                     </button>
 
                 </div>
-                <div>
+                <div class="div_icon">
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </div>
+                <div class="search">
                     <input type="search" id="gsearch" name="gsearch">
                     <input type="submit" value="">
                 </div>
@@ -78,9 +86,9 @@
 
             </div>
             <div class="main_sid main_flex-container">
-                <div class="side_text side_text1" >Some text</div>
+                <div class="side_text side_text1">Some text</div>
                 <div class="side_text side_text2">Some text</div>
-                <button >Some text</button>
+                <button>Some text</button>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -335,5 +343,15 @@
     </div>
 
 </div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
+</script>
 </body>
 </html>
